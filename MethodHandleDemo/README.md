@@ -1,4 +1,4 @@
-在学习jdk7 方法句柄(MethodHandle)中的一些例子
+在学习jdk7 方法句柄(MethodHandle)中的一些例子<br>
 java的方法间接访问技术比较
 
 | 特征      | 反射                | 代理    |  方法句柄   |
