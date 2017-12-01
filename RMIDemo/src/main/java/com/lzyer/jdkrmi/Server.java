@@ -18,7 +18,7 @@ public class Server {
             LocateRegistry.createRegistry(9051);
             /*Context context = new InitialContext();
             context.rebind("rmi://127.0.0.1:9051/PersonService", personService);*/
-            Naming.rebind("rmi://127.0.0.1:9051/PersonService", personService);
+            Naming.bind("rmi://127.0.0.1:9051/PersonService", personService);
             System.out.println("Service start!");
         }catch(Exception e){
             e.printStackTrace();
